@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1020px;
+    font-family: Arial, Tahoma;
+}
+
+#slider{
+    background: url(images/slider.jpg) no-repeat;
+    height: 510px;
+}
+
+.darkRect{
+    width: 485px;
+    padding: 69px 0 0 80px;
+    color: #ffffff;
+}
+
+.darkRect{
+    p{
+        padding-left: 15px;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0;
+    }
+    span{
+        letter-spacing: 1px;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 34px 0 0 16px;
+        font-weight: normal;
+    }
+}
+
+.horizontalLine{
+    margin-bottom: 15px;
+}
+
+.redRect{
+    text-align: center;
+    background-color: #ab1e2e;
+    color: #ffffff;
+}
+
+.big{
+    width: 278px;
+    height: 191px;
+    margin: 68px 0 7px 161px;
+}
+
+.redRectTitle{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 26px;
+    margin: 0;
+}
+
+.small{
+    height: 57px;
+    margin-left: 161px;
+    width: 278px;
+}
+
+.price{
+    padding-left: 60px;
+}
+
+.mainPrice{
+    float:left;
+    font-size: 92px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.smallPrice{
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0;
+    padding: 0 0 3px 0;
+    position: relative;
+}
+
+.month{
+    display: block;
+    font-size: 10px;
+    margin-top:-7px;
+}
+
+.priceGroup{
+    float:left;
+}
+
+.redRectAddInform{
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0 0 4px 0;
+    font-size: 7px;
+    line-height: 9px;
+}
+
+.clickLink{
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.phone{
+    letter-spacing: 1px;
+    font-size: 28px;
+    line-height: 56px;
+    font-weight: bold;
+}
+
+/*------------------Main Content Styles-----------------*/
+
+.mainContent{
+    background-color: #e6e9eb;
+    margin: 0;
+}
+
+.content{
+    width: 833px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contentTitle{
+    margin: 0;
+    text-align: center;
+    color: #5f6062;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 32px 0 40px 0;
+}
+
+.contentLeft{
+    width: 527px;
+    color: #ffffff;
+    font-size: 14px;
+    float: left;
+}
+
+.contentItem{
+    background-color: #939598;
+    line-height: 16px;
+    height: 48px;
+    padding: 15px 0 0 30px;
+    margin-bottom: 6px;
+}
+
+.contentItem{
+    h3{
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .smallNote{
+        font-size: 10px;
+    }
+}
+
+.lastItem{
+    height: 52px;
+    padding-top: 12px;
+}
+
+.contentRight{
+    background-color: #ab1e2e;
+    width: 300px;
+    float: right;
+    height: 256px;
+    padding: 16px 0 0 0;
+}
+
+.titleLarge{
+    font-size: 20px;
+}
+
+.mainPriceLarge{
+    font-size: 122px;
+}
+
+.smallPriceLarge{
+    font-size: 62px;
+    line-height: 40px
+}
+
+.monthLarge{
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.redRectAddInformLarge{
+    font-size: 9px;
+    margin: 16px 0 0 0;
+    letter-spacing: 0;
+}
+
+.clickLinkLarge{
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.priceLarge{
+    padding: 15px 0 0 47px;
+}
+
+.pcImg{
+    width: 136px;
+    height: 112px;
+    background: url(images/pcImg.png) no-repeat;
+    position: absolute;
+    top: 323px;
+    left: 420px;
+}
+
+.checking{
+    float: left;
+}
+
+.checkAvailability{
+    margin: 20px 0 4px 0;
+    color: #ab1e2e;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    font-size: 13px;
+    width: 154px;
+    height: 27px;
+    color: #5f6062;
+    padding: 0px 0 0 7px;
+    background: url(images/textInput.png) no-repeat;
+    border: none;
+}
+
+input[type="button"]{
+    color: #ab1e2e;
+    background-color: #ffffff;
+    border: none;
+    line-height: 26px;
+    text-transform: uppercase;
+    width: 32px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.call{
+    margin: 26px 0 0 30px;
+    float: left;
+    font-size: 14px;
+}
+
+.contact{
+    list-style-type: none;
+    color: #ab1e2e;
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    padding: 0 0 11px 28px;
+}
+
+#icon1{
+    background: url(images/phoneIcon.png) no-repeat;
+}
+
+#icon2{
+    background: url(images/chatIcon.png) no-repeat;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.contact{
+    a{
+        color: #ab1e2e;
+        text-decoration: none;
+    }
+}
+
+.beConficentLogo{
+    float: right;
+    margin: 0 0 22px 0;
+}
+
+.offerBlock{
+    padding: 35px 0 0 0;
+    text-align: center;
+    color: #ab1e2e;
+    background-color:#ffffff;
+}
+
+.offerBlock{
+    p{
+        margin: 0;
+        font-size: 29px;
+        font-weight: bold;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    span{
+        font-size: 24px;
+        font-weight: normal;
+    }
+}
+
+#noteStar{
+    color: #5f6062;
+    font-size: 10px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 18px 0 8px 17px;
+}

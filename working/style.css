@@ -1,0 +1,325 @@
+/* line 1, D:/Working/Ryan/Frontier Html/working/style.scss */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* line 6, D:/Working/Ryan/Frontier Html/working/style.scss */
+.clear {
+  clear: both; }
+
+/* line 10, D:/Working/Ryan/Frontier Html/working/style.scss */
+.wrapper {
+  margin: 0 auto;
+  width: 1020px;
+  font-family: Arial, Tahoma; }
+
+/* line 16, D:/Working/Ryan/Frontier Html/working/style.scss */
+#slider {
+  background: url(images/slider.jpg) no-repeat;
+  height: 510px;
+  position: relative;
+  }
+
+/* line 21, D:/Working/Ryan/Frontier Html/working/style.scss */
+.darkRect {
+  width: 485px;
+  padding: 69px 0 0 80px;
+  color: #ffffff; }
+
+/* line 28, D:/Working/Ryan/Frontier Html/working/style.scss */
+.darkRect p {
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0; }
+/* line 34, D:/Working/Ryan/Frontier Html/working/style.scss */
+.darkRect span {
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 34px 0 0 16px;
+  font-weight: normal; }
+
+/* line 43, D:/Working/Ryan/Frontier Html/working/style.scss */
+.horizontalLine {
+  margin-bottom: 15px; }
+
+/* line 47, D:/Working/Ryan/Frontier Html/working/style.scss */
+.redRect {
+  text-align: center;
+  background-color: #ab1e2e;
+  color: #ffffff; }
+
+/* line 53, D:/Working/Ryan/Frontier Html/working/style.scss */
+.big {
+  width: 278px;
+  height: 191px;
+  position: absolute;
+  top: 230px;
+  left: 161px;
+  }
+
+/* line 59, D:/Working/Ryan/Frontier Html/working/style.scss */
+.redRectTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 26px;
+  margin: 0; }
+
+/* line 66, D:/Working/Ryan/Frontier Html/working/style.scss */
+.small {
+  height: 57px;
+  position: absolute;
+  top: 430px;
+  left: 161px;
+  width: 278px; }
+
+/* line 72, D:/Working/Ryan/Frontier Html/working/style.scss */
+.price {
+  padding-left: 60px; }
+
+/* line 76, D:/Working/Ryan/Frontier Html/working/style.scss */
+.mainPrice {
+  float: left;
+  font-size: 92px;
+  font-weight: bold;
+  line-height: 80px;
+  margin: 0;
+  padding: 0; }
+
+/* line 85, D:/Working/Ryan/Frontier Html/working/style.scss */
+.smallPrice {
+  font-size: 47px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0;
+  padding: 0 0 3px 0;
+  position: relative; }
+
+/* line 94, D:/Working/Ryan/Frontier Html/working/style.scss */
+.month {
+  display: block;
+  font-size: 10px;
+  margin-top: -7px; }
+
+/* line 100, D:/Working/Ryan/Frontier Html/working/style.scss */
+.priceGroup {
+  float: left; }
+
+/* line 104, D:/Working/Ryan/Frontier Html/working/style.scss */
+.redRectAddInform {
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0 0 4px 0;
+  font-size: 7px;
+  line-height: 9px; }
+
+/* line 112, D:/Working/Ryan/Frontier Html/working/style.scss */
+.clickLink {
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 9px; }
+
+/* line 118, D:/Working/Ryan/Frontier Html/working/style.scss */
+.phone {
+  letter-spacing: 1px;
+  font-size: 28px;
+  line-height: 56px;
+  font-weight: bold; }
+
+/*------------------Main Content Styles-----------------*/
+/* line 127, D:/Working/Ryan/Frontier Html/working/style.scss */
+.mainContent {
+  background-color: #e6e9eb;
+  margin: 0; }
+
+/* line 132, D:/Working/Ryan/Frontier Html/working/style.scss */
+.content {
+  width: 833px;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 138, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contentTitle {
+  margin: 0 auto;
+  text-align: center;
+  color: #5f6062;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 32px 0 40px 0;
+  width: 700px; }
+
+/* line 148, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contentLeft {
+  width: 527px;
+  color: #ffffff;
+  font-size: 14px;
+  float: left; }
+
+/* line 155, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contentItem {
+  background-color: #939598;
+  line-height: 16px;
+  height: 48px;
+  padding: 15px 0 0 30px;
+  margin-bottom: 6px; }
+
+/* line 164, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contentItem h3 {
+  text-transform: uppercase;
+  margin: 0; }
+/* line 168, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contentItem .smallNote {
+  font-size: 10px; }
+
+/* line 173, D:/Working/Ryan/Frontier Html/working/style.scss */
+.lastItem {
+  height: 52px;
+  padding-top: 12px; }
+
+/* line 178, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contentRight {
+  background-color: #ab1e2e;
+  width: 300px;
+  float: right;
+  height: 256px;
+  padding: 16px 0 0 0; }
+
+/* line 186, D:/Working/Ryan/Frontier Html/working/style.scss */
+.titleLarge {
+  font-size: 20px; }
+
+/* line 190, D:/Working/Ryan/Frontier Html/working/style.scss */
+.mainPriceLarge {
+  font-size: 122px; }
+
+/* line 194, D:/Working/Ryan/Frontier Html/working/style.scss */
+.smallPriceLarge {
+  font-size: 62px;
+  line-height: 40px; }
+
+/* line 199, D:/Working/Ryan/Frontier Html/working/style.scss */
+.monthLarge {
+  font-size: 13px;
+  margin-top: 0px; }
+
+/* line 204, D:/Working/Ryan/Frontier Html/working/style.scss */
+.redRectAddInformLarge {
+  font-size: 9px;
+  margin: 16px 0 0 0;
+  letter-spacing: 0; }
+
+/* line 210, D:/Working/Ryan/Frontier Html/working/style.scss */
+.clickLinkLarge {
+  font-size: 10px;
+  line-height: 14px; }
+
+/* line 215, D:/Working/Ryan/Frontier Html/working/style.scss */
+.priceLarge {
+  padding: 15px 0 0 47px; }
+
+/* line 219, D:/Working/Ryan/Frontier Html/working/style.scss */
+.pcImg {
+  width: 136px;
+  height: 112px;
+  background: url(images/pcImg.png) no-repeat;
+  position: absolute;
+  top: 323px;
+  left: 420px; }
+
+/* line 228, D:/Working/Ryan/Frontier Html/working/style.scss */
+.checking {
+  float: left; }
+
+/* line 232, D:/Working/Ryan/Frontier Html/working/style.scss */
+.checkAvailability {
+  margin: 20px 0 4px 0;
+  color: #ab1e2e;
+  font-weight: bold; }
+
+/* line 238, D:/Working/Ryan/Frontier Html/working/style.scss */
+input[type="text"] {
+  font-size: 13px;
+  width: 154px;
+  height: 27px;
+  color: #5f6062;
+  padding: 0px 0 0 7px;
+  background: url(images/textInput.png) no-repeat;
+  border: none; }
+
+/* line 248, D:/Working/Ryan/Frontier Html/working/style.scss */
+input[type="button"] {
+  color: #ab1e2e;
+  background-color: #ffffff;
+  border: none;
+  line-height: 26px;
+  text-transform: uppercase;
+  width: 32px;
+  cursor: pointer;
+  padding: 0; }
+
+/* line 259, D:/Working/Ryan/Frontier Html/working/style.scss */
+.call {
+  margin: 26px 0 0 30px;
+  float: left;
+  font-size: 14px; }
+
+/* line 265, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contact {
+  list-style-type: none;
+  color: #ab1e2e;
+  margin: 0;
+  padding: 0; }
+
+/* line 272, D:/Working/Ryan/Frontier Html/working/style.scss */
+.icon {
+  padding: 0 0 11px 28px; }
+
+/* line 276, D:/Working/Ryan/Frontier Html/working/style.scss */
+#icon1 {
+  background: url(images/phoneIcon.png) no-repeat; }
+
+/* line 280, D:/Working/Ryan/Frontier Html/working/style.scss */
+#icon2 {
+  background: url(images/chatIcon.png) no-repeat;
+  line-height: 14px;
+  font-weight: bold; }
+
+/* line 287, D:/Working/Ryan/Frontier Html/working/style.scss */
+.contact a {
+  color: #ab1e2e;
+  text-decoration: none; }
+
+/* line 293, D:/Working/Ryan/Frontier Html/working/style.scss */
+.beConficentLogo {
+  float: right;
+  margin: 0 0 22px 0; }
+
+/* line 298, D:/Working/Ryan/Frontier Html/working/style.scss */
+.offerBlock {
+  padding: 35px 0 0 0;
+  text-align: center;
+  color: #ab1e2e;
+  background-color: #ffffff; }
+
+/* line 306, D:/Working/Ryan/Frontier Html/working/style.scss */
+.offerBlock p {
+  margin: 0;
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 1px; }
+/* line 313, D:/Working/Ryan/Frontier Html/working/style.scss */
+.offerBlock span {
+  font-size: 24px;
+  font-weight: normal; }
+
+/* line 319, D:/Working/Ryan/Frontier Html/working/style.scss */
+#noteStar {
+  color: #5f6062;
+  font-size: 10px;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 18px 0 8px 17px; }
+
+/*# sourceMappingURL=style.css.map */
